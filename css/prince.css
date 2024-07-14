@@ -1,0 +1,71 @@
+/* PRINCE CSS IS START HERE || VERSION: 1.0 || © 2024-2025 */
+/* Theme Variables *
+:root {
+  --themeColor: #3c8cf0;
+  --hoverColor: #ff3c5d;
+  --titleColor: #181818;
+  --textColor: #323232;
+  --gradientColor: linear-gradient(to right, #ff3c5d, #3c8cf0);
+  --gradientColor1: linear-gradient(to right, red, gold);
+  --backgroundColor: #f0f0f0;
+  --radius: 3px;
+  --transparent: rgba(0, 0, 0, 0.1);
+  --border-color: #dddddd;
+  --code-background: #f4f4f4;
+}
+
+/* Dark Mode Variables *
+[data-theme="dark"] {
+  --background-color: #1e1e1e;
+  --text-color: #cccccc;
+  --link-color: #4dabf7;
+  --heading-color: #dddddd;
+  --border-color: #444444;
+  --code-background: #2d2d2d;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  -webkit-tap-highlight-color: transparent !important;
+  /* Copy Paste Disable*/
+  user-select: none !important;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none !important;
+  /* Safari */
+  -khtml-user-select: none !important;
+  /* Konqueror HTML */
+  -moz-user-select: none !important;
+  /* Firefox */
+  -ms-user-select: none !important;
+  /* Internet Explorer/Edge */
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -o-user-select: none !important;
+
+}
+
+body {
+  font-family: prince !important;
+}
+
+.prince {
+  font-family: 'prince';
+}
+
+@font-face {
+  font-family: 'prince';
+  src: url('../assets/fonts/prince.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* PRINCE CSS IS ENDED HERE || VERSION: 1.0 || © 2024-2025 */
